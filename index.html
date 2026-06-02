@@ -1,369 +1,403 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Omar's CV</title>
+    <meta charset="UTF-8">
+    <title>Omar's CV - Mobile Application Developer</title>
     <link rel="shortcut icon" href="иконка.ico">
-      <style>
-   a {
-color:#2287C9;
-text-decoration: underline;
-}
-
-a:active {
-color:#2287C9;
-text-decoration: underline;
-}
-
-a:visited {
-color:#2287C9;
-text-decoration: underline;
-}
-
-a:hover {
-color:#339900;
-text-decoration: underline;
-}
-  </style>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <base target="_blank">
+    
+    <style>
+        a {
+            color:#2287C9;
+            text-decoration: underline;
+        }
+        a:active, a:visited {
+            color:#2287C9;
+            text-decoration: underline;
+        }
+        a:hover {
+            color:#339900;
+            text-decoration: underline;
+        }
+
+        /* Fixed Top Header Layout Configuration */
+        .custom-header {
+            background: #212529;
+            color: #ffffff;
+            padding: 2.5rem;
+        }
+        
+        /* Modern Rounded Profile Image Container */
+        .header-profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .primary-info .name {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0 0 6px;
+            line-height: 1.2;
+            letter-spacing: 1px;
+        }
+        .primary-info .title {
+            display: block;
+            color: rgba(241,245,249,0.95);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+        }
+        .contact-list li {
+            font-size: 14px;
+            color: rgba(241,245,249,0.9);
+        }
+        .contact-list a {
+            color: rgba(241,245,249,0.9) !important;
+            text-decoration: none !important;
+        }
+        .contact-list a:hover {
+            color: #339900 !important;
+        }
+        .secondary-info .resume-social li {
+            font-size: 13px;
+            color: rgba(241,245,249,0.9);
+        }
+        .secondary-info .resume-social a {
+            color: rgba(241,245,249,0.9) !important;
+            text-decoration: none !important;
+        }
+        .secondary-info .resume-social a:hover {
+            color: #339900 !important;
+        }
+        
+        @media (max-width: 767px) {
+            .custom-header { text-align: center; }
+            .profile-img-container { margin-bottom: 1.5rem; }
+            .primary-info .name { font-size: 24px; }
+            .primary-info .title { font-size: 13px; }
+            .contact-list { margin-bottom: 1.5rem; }
+            .secondary-info .resume-social li { margin-bottom: 0.5rem !important; }
+            .secondary-info .resume-social ul { padding-left: 0 !important; border-left: none !important; }
+        }
+    </style>
 </head> 
-<body>	
+<body>  
     <article class="resume-wrapper text-center position-relative">
-	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
-		    <header class="resume-header pt-4 pt-md-0">
-			    <div class="media flex-column flex-md-row">
-                 <a href="https://imgbb.com/"><img src="assets/images/new.png" alt="image" border="0"width="220" height="220"></a>
-				    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/фотощька.jpg" alt="">
-				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
-					    <div class="primary-info">
-						    <h1 class="name mt-0 mb-1 text-white text-uppercase">MD Omar Faruk</h1>
-						    <div class="title mb-3">Software developer</div>
-						    <ul class="list-unstyled">
-							    <li class="mb-2"><a href="mailto:zveryanovstanis@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>0419311022@iict.buet.ac.bd</a></li>
-							    <li><a><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+88 017 23952361</a></li>
-						    </ul>
-					    </div>
-						
-					    <div class="secondary-info ml-md-auto mt-2">
-						    <ul class="resume-social list-unstyled">
-				                <li class="mb-3"><a href="https://github.com/meloDramatic007"><span class="fa-container text-center mr-2"><i class="fab fa-brands fa-github fa-fw"></i></span>meloDramatic007</a></li>
-				                <li class="mb-3"><a href="https://stackoverflow.com/users/6995566/saddan"><span class="fa-container text-center mr-2"><i class="fab fa-brands fa-stack-overflow fa-fw"></i></span>saddan</a></li>
-				                <li class="mb-3"><a href="https://behance.net/twstrblg"><span class="fa-container text-center mr-2"><i class="fab fa-brands fa-youtube fa-fw"></i></span>Sad Programmer</a></li>
-				                <li><a href="https://www.linkedin.com/in/saddan93/"><span class="fa-container text-center mr-2"><i class="fab fa-brands fa-linkedin"></i></span>Omar Fahruk Saddan</a></li>
-						    </ul>
-					    </div>
-				    </div>
-			    </div>
-		    </header>
-		    <div class="resume-body p-5">
-			    <section class="resume-section summary-section mb-5">
-				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Professional Summary</h2>
-				    <div class="resume-section-content">
-					    <p class="mb-0">Experienced Full-Stack Developer with a robust background in native Android development, Laravel, and Flutter. I began my career as a native Android developer, where I honed my skills in mobile app development and gained hands-on experience in creating high-performance applications. My passion for technology and continuous learning led me to expand my expertise into back-end development using Laravel and cross-platform mobile development with Flutter.
-
-							With several years of proven work experience in these three stacks, I have successfully delivered end-to-end solutions that are scalable, secure, and user-friendly. My diverse skill set enables me to effectively bridge the gap between front-end and back-end development, ensuring seamless integration and optimal functionality. I am adept at working in agile environments, collaborating with cross-functional teams, and leveraging cutting-edge technologies to drive innovative solutions. My commitment to quality and continuous improvement drives me to stay updated with industry trends and best practices.</p>
-				    </div>
-			    </section>
-			    <div class="row">
-				    <div class="col-lg-9">
-					    <section class="resume-section experience-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work history</h2>
-						    <div class="resume-section-content">
-							    <div class="resume-timeline position-relative">
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Trabem (Spain)</h3>
-										        
-										    </div>
-										    <div class="resume-position-time">2022 — present</div>
-									    </div><!--//resume-timeline-item-header-->
-									    <div class="resume-timeline-item-desc">
-										    <p>At Trabem, I led the development of a web application using Laravel and Vue.js to send reminder SMS at scheduled times, enhancing communication and engagement. I also developed a Flutter-based mobile app for booking clinic appointments, improving patient convenience and scheduling efficiency. Currently, I am working on a customer support system for WhatsApp users, focusing on building an efficient platform for managing interactions and automating responses. My role includes designing system architecture, developing key functionalities, and ensuring smooth integration with existing services. I have consistently delivered high-quality, user-centric solutions, demonstrating my expertise in web and mobile development and contributing significantly to project success.</p>
-										    <ul>
-											    <li><a href="https://comunicacion.trabem.es/" target="_blank">Trabem communication(web)</a></li>
-											    <li><a href="https://w3c.syscomed.es/" target="_blank">WhatsApp chat support(web)</a></li>
-											    <li><a href="https://play.google.com/store/apps/details?id=patient.trabem.es.trabem_patient_app&hl=en_US" target="_blank">Trabem appointment booking (Flutter)</a></li>
-											 </ul>
-										</div>
-
-								    </article>
-								    
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Syscomed (Spain)</h3>
-										    </div>
-										    <div class="resume-position-time">2019 — 2022</div>
-									    </div>
-									    <div class="resume-timeline-item-desc">
-										    <p>At Syscomed, I served as a Full-Stack Developer, where I developed two pivotal web applications and a native Android app. The first web app was a comprehensive support system, enabling real-time chat and video conferencing, which facilitated seamless communication and support for users. The second web app was designed for enhanced user interaction and management features, tailored to improve operational efficiency. I also developed a native Android application for farmers, allowing them to save data offline and sync it to the server once an internet connection was available. My role involved full-cycle development from designing user interfaces and crafting robust back-end systems to integrating real-time functionalities and ensuring data security. These projects demonstrated my expertise in web and mobile development, and my ability to deliver reliable, user-friendly solutions that addressed complex user needs.</p>
-										     <ul>
-											    <li><a href="https://meetingroom.syscomed.es/signin" target="_blank">Meeting room (web)</a></li>
-											    <li><a href="https://videollamada.syscomed.es/" target="_blank">video conference (web)</a></li>
-											 </ul>
-									    </div>
-								    </article>
-								    <article class="resume-timeline-item position-relative pb-5">
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Digicon technologies</h3>
-										    </div>
-										    <div class="resume-position-time">2018-2019</div>
-									    </div>
-									    <div class="resume-timeline-item-desc">
-										    <p>During my internship at Digicon Technology, I worked as an Android Developer, gaining extensive experience with native Android stacks. I developed a horoscope entertainment app that provided daily and weekly horoscope readings, featuring a user-friendly interface and engaging content. Additionally, I created a student plan organizer app designed to help students efficiently manage their schedules and assignments. This app included features such as task reminders, timetable management, and assignment tracking. My role involved full-cycle development, from UI/UX design to coding and testing. This internship allowed me to deepen my understanding of Android development and provided me with hands-on experience in creating functional and engaging mobile applications.</p>
-										   <ul>
-											    <li><a href="https://play.google.com/store/apps/details?id=com.saddan.apnarvaggo&hl=en_US" target="_blank">Horroscope</a></li>
-												<li><a href="https://play.google.com/store/apps/details?id=com.saddan.scoutstudy&hl=en_US" target="_blank">Scout Study</a></li>
-											 </ul>
-									    </div>
-								    </article>
-								   
-								    
-							    </div>
+        <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
             
-							    
-							    
-							    
-							    
-							    
-							    
-						    </div>
-					    </section>
-						<section class="resume-section summary-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
-							<div class="resume-section-content">
-							    <div class="resume-timeline position-relative">
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Post graduation diploma in Information & communications technology</h3>
-										        
-										    </div>
-										    <div class="resume-position-time">2019 — 2022</div>
-									    </div><!--//resume-timeline-item-header-->
-									    <div class="resume-timeline-item-desc">
-										    <h5>Institute</h5>
-											<span>Bangladesh University of Engineering and Technology <b>(BUET)</b></span>
-										</div>
+            <header class="custom-header">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3 text-center profile-img-container">
+                        <img class="header-profile-img" src="assets/images/new.png" alt="MD Omar Faruk">
+                    </div>
+                    
+                    <div class="col-12 col-md-9">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-7 primary-info">
+                                <h1 class="name text-uppercase text-white">MD Omar Faruk</h1>
+                                <div class="title">Senior Mobile Application Developer | Native Android & Flutter | AI & Cloud Integration</div>
+                                
+                                <ul class="list-unstyled contact-list mt-3">
+                                    <li class="mb-2">
+                                        <a href="mailto:0419311022@iict.buet.ac.bd">
+                                            <i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>0419311022@iict.buet.ac.bd
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="mailto:saddanfah@gmail.com">
+                                            <i class="fas fa-envelope-open fa-fw mr-2"></i>saddanfah@gmail.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+8801723952361">
+                                            <i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+88 017 23952361
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-12 col-lg-5 secondary-info mt-3 mt-lg-0">
+                                <ul class="resume-social list-unstyled pl-lg-4 border-lg-left">
+                                    <li class="mb-2">
+                                        <a href="https://linkedin.com/in/saddan93/">
+                                            <span class="fa-container text-center mr-2"><i class="fab fa-linkedin fa-fw"></i></span>Omar Fahruk Saddan
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="https://github.com/meloDramatic007">
+                                            <span class="fa-container text-center mr-2"><i class="fab fa-github fa-fw"></i></span>meloDramatic007
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="https://stackoverflow.com/users/6995566/saddan">
+                                            <span class="fa-container text-center mr-2"><i class="fab fa-stack-overflow fa-fw"></i></span>saddan
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://behance.net/twstrblg">
+                                            <span class="fa-container text-center mr-2"><i class="fab fa-youtube fa-fw"></i></span>Sad Programmer
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
 
-								    </article>
-								    
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">BSC in Mathematics</h3>
-										    </div>
-										    <div class="resume-position-time">2012 — 2017</div>
-									    </div>
-										<div class="resume-timeline-item-desc">
-										    <h5>Institute</h5>
-											<span>Dhaka university <b>(DU)</b></span>
-										</div>
-								    </article>
-								   
-						    </div>
+            <div class="resume-body p-5">
+                <!-- Human-Centric Professional Summary -->
+                <section class="resume-section summary-section mb-5">
+                    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Professional Summary</h2>
+                    <div class="resume-section-content">
+                        <p class="mb-0">
+                            I am a mobile developer who loves building things that run smoothly on real screens and solve actual user problems. My journey started deep in native Android development, where I learned how mobile operating systems think under the hood, how to manage threads, and how to build responsive, offline-first applications. As cross-platform tools grew, I adopted Flutter to deliver beautiful, fast interfaces across both iOS and Android without sacrificing performance.
+                        </p>
+                        <p class="mb-0 mt-2">
+                            What sets me apart is that I don’t treat the mobile app like an island. Because I have years of full-stack experience building backend APIs with Laravel and configuring cloud environments like Firebase and Supabase, I understand exactly how data should flow between a server and a device. Lately, I've been focused on connecting mobile frontends to modern AI models (like Gemini and Claude), building intelligent application features that make client apps significantly smarter. I enjoy diving into complex debugging blocks, sorting out state management challenges, and writing readable, long-lasting code.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="row">
+                    <div class="col-lg-9">
+                        <section class="resume-section experience-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work history</h2>
+                            <div class="resume-section-content">
+                                <div class="resume-timeline position-relative">
+                                    
+                                    <article class="resume-timeline-item position-relative pb-5">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title font-weight-bold mb-1">Trabem (Spain)</h3>
+                                            </div>
+                                            <div class="resume-position-time">2022 — 2026</div>
+                                        </div>
+                                        <div class="resume-timeline-item-desc">
+                                            <p>Spearheaded the design and deployment of critical client-facing software systems. Engineered a high-performance **Flutter appointment booking application**, scaling scheduling efficiency by utilizing optimized async network layers and robust localized state management models. Developed interactive automated notification workflows and webhook listener systems bridging RESTful environments with real-time customer support frameworks via WhatsApp APIs. Maintained high UI fluidness and flawless device performance across diverse viewports.</p>
+                                            <ul class="list-inline mt-2">
+                                                <li class="list-inline-item mr-3"><a href="https://play.google.com/store/apps/details?id=patient.trabem.es.trabem_patient_app&hl=en_US"><i class="fab fa-google-play mr-1"></i>Appointment Booking (Flutter)</a></li>
+                                                <li class="list-inline-item mr-3"><a href="https://comunicacion.trabem.es/"><i class="fas fa-link mr-1"></i>Trabem Communication</a></li>
+                                                <li class="list-inline-item"><a href="https://w3c.syscomed.es/"><i class="fas fa-link mr-1"></i>WhatsApp Support System</a></li>
+                                             </ul>
+                                        </div>
+                                    </article>
+                                    
+                                    <article class="resume-timeline-item position-relative pb-5">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title font-weight-bold mb-1">Syscomed (Spain)</h3>
+                                            </div>
+                                            <div class="resume-position-time">2019 — 2022</div>
+                                        </div>
+                                        <div class="resume-timeline-item-desc">
+                                            <p>Architected and launched a custom, **offline-first Native Android application** optimized for agricultural operations. Implemented a reliable SQLite local storage layout that preserved system state and data points under zero-network conditions, executing automated data synchronization logic via secure background handlers when cell service restored. Engineered full real-time communication modules, integrating peer-to-peer architectures, live chat systems, and specialized video teleconferencing nodes.</p>
+                                             <ul class="list-inline mt-2">
+                                                <li class="list-inline-item mr-3"><a href="https://meetingroom.syscomed.es/signin"><i class="fas fa-link mr-1"></i>Meeting Architecture</a></li>
+                                                <li class="list-inline-item"><a href="https://videollamada.syscomed.es/"><i class="fas fa-link mr-1"></i>Video Conference Node</a></li>
+                                             </ul>
+                                        </div>
+                                    </article>
+
+                                    <article class="resume-timeline-item position-relative pb-5">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title font-weight-bold mb-1">Digicon Technologies</h3>
+                                            </div>
+                                            <div class="resume-position-time">2018 — 2019</div>
+                                        </div>
+                                        <div class="resume-timeline-item-desc">
+                                            <p>Honed skills in platform-level mechanics as an Android Developer Intern. Developed and successfully deployed two standalone utilities onto the Google Play Store. Designed customized UI view hierarchies using XML layout sheets, configured reactive local reminder services using Android Alarm Managers, and managed thread containment models to isolate intensive database processing away from the main thread.</p>
+                                           <ul class="list-inline mt-2">
+                                                <li class="list-inline-item mr-3"><a href="https://play.google.com/store/apps/details?id=com.saddan.apnarvaggo&hl=en_US"><i class="fab fa-google-play mr-1"></i>Horoscope App</a></li>
+                                                <li class="list-inline-item"><a href="https://play.google.com/store/apps/details?id=com.saddan.scoutstudy&hl=en_US"><i class="fab fa-google-play mr-1"></i>Scout Study App</a></li>
+                                             </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="resume-section education-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+                            <div class="resume-section-content">
+                                <div class="resume-timeline position-relative">
+                                    <article class="resume-timeline-item position-relative pb-4">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title font-weight-bold mb-1">Post Graduate Diploma in Information & Communications Technology</h3>
+                                            </div>
+                                            <div class="resume-position-time">2019 — 2022</div>
+                                        </div>
+                                        <div class="resume-timeline-item-desc">
+                                            <span>Bangladesh University of Engineering and Technology <strong>(BUET)</strong></span>
+                                        </div>
+                                    </article>
+                                    
+                                    <article class="resume-timeline-item position-relative pb-4">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title font-weight-bold mb-1">B.Sc. in Mathematics</h3>
+                                            </div>
+                                            <div class="resume-position-time">2012 — 2017</div>
+                                        </div>
+                                        <div class="resume-timeline-item-desc">
+                                            <span>Dhaka University <strong>(DU)</strong></span>
+                                        </div>
+                                    </article>
+
+                                    <article class="resume-timeline-item position-relative pb-4">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title font-weight-bold mb-1">Higher Secondary Certificate (HSC) — Science</h3>
+                                            </div>
+                                            <div class="resume-position-time">2009 — 2011</div>
+                                        </div>
+                                        <div class="resume-timeline-item-desc">
+                                            <span>Tejgaon College</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="resume-timeline-item position-relative pb-4">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title font-weight-bold mb-1">Secondary School Certificate (SSC) — Science</h3>
+                                            </div>
+                                            <div class="resume-position-time">2005 — 2009</div>
+                                        </div>
+                                        <div class="resume-timeline-item-desc">
+                                            <span>Government Science College</span>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <section class="resume-section skills-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills</h2>
+                            <div class="resume-section-content">
+                                
+                                <div class="resume-skill-item">
+                                    <h4 class="resume-skills-cat font-weight-bold">Mobile Core</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Java / Kotlin (Android)</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 95%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Flutter / Dart</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 90%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Jetpack Compose / XML</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 85%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Architecture (MVVM / Clean)</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 90%"></div></div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="resume-skill-item">
+                                    <h4 class="resume-skills-cat font-weight-bold">AI & Mobile Cloud</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Gemini / Claude SDKs</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 95%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Firebase / Supabase</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 90%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">SQLite / Room / Cache</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 90%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">REST APIs / WebSockets</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 95%"></div></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="resume-skill-item">
+                                    <h4 class="resume-skills-cat font-weight-bold">Fullstack Backbone</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Laravel / PHP</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 90%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Vue.js</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 90%"></div></div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Docker & VPS Linux</div>
+                                            <div class="progress resume-progress"><div class="progress-bar theme-progress-bar-dark" style="width: 85%"></div></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="resume-skill-item">
+                                    <h4 class="resume-skills-cat font-weight-bold">Other Capabilities</h4>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><span class="badge badge-light">Provider/GetX</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Twilio</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Payment Gateways</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">GCP Cloud</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Microservices</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Thread Management</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Gradle/Jitpack</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Bootstrap</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="resume-section education-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Certificates</h2>
+                            <div class="resume-section-content">
+                                <ul class="list-unstyled" style="font-size: 13px;">
+                                    <li class="mb-2">
+                                        <div class="font-weight-bold">Mobile App Dev (6 Months)</div>
+                                        <div class="text-muted">ICT Division Bangladesh</div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="font-weight-bold">Android App Development</div>
+                                        <div class="text-muted">BITM</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="resume-section reference-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Online Judge</h2>
+                            <div class="resume-section-content">
+                                <div style="font-size: 13px;">
+                                    <span class="font-weight-bold">Beecrowd:</span> 221+ problems solved.
+                                    <div class="mt-1"><a href="https://judge.beecrowd.com/en/profile/78785">View Profile</a></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
             
-							    
-							    
-							    
-							    
-							    
-							    
-						    </div>
-						</section>
-				    </div>
-				    <div class="col-lg-3">
-					    <section class="resume-section skills-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills</h2>
-						    <div class="resume-section-content">
-						        
-						        
-						        <div class="resume-skill-item">
-					            <h4 class="resume-skills-cat font-weight-bold">Android Native</h4>
-						        <ul class="list-unstyled">
-							        <li class="mb-2">
-							            <div class="resume-skill-name">Java/Kotlin</div>
-								        <div class="progress resume-progress">
-									            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									        </div>
-							        </li>
-							        <li class="mb-2">
-							            <div class="resume-skill-name">Jetpack Compose</div>
-								        <div class="progress resume-progress">
-									            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									        </div>
-							        </li>
-							        <li class="mb-2">
-							            <div class="resume-skill-name">MVVM/MVC Architecture</div>
-								        <div class="progress resume-progress">
-									            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									        </div>
-							        </li>
-							        <li class="mb-2">
-							            <div class="resume-skill-name">SQLite/Firebase/Supabase</div>
-								        <div class="progress resume-progress">
-									            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									        </div>
-							        </li>
-							        <li class="mb-2">
-							            <div class="resume-skill-name">SDK Implementation</div>
-								        <div class="progress resume-progress">
-									            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									        </div>
-							        </li>
-							        <li class="mb-2">
-							            <div class="resume-skill-name">XML Layout Design</div>
-								        <div class="progress resume-progress">
-									            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									        </div>
-							        </li>
-						        </ul>
-					        </div>
-					        
-					        <div class="resume-skill-item">
-					            <h4 class="resume-skills-cat font-weight-bold">Cross-Platform & Web</h4>
-						        <ul class="list-unstyled">
-							        <li class="mb-2">
-							            <div class="resume-skill-name">Flutter</div>
-								        <div class="progress resume-progress">
-									            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									        </div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">Vue.js</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">Bootstrap</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-							        </ul>
-						        </div>
-						        
-						        <div class="resume-skill-item">
-						            <h4 class="resume-skills-cat font-weight-bold">Others skill</h4>
-						            <ul class="list-inline">
-										<li class="list-inline-item"><span class="badge badge-light">Jetpack Libraries</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Supabase</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Websocket</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Twillio</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Payment integration</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">AWS</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Digital ocean</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Microservices</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Google maps</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Provider/GETX</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Gradle/Jitpack</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">REST APIs</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Thread Management</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Lifecycle Management</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">MacOS</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Windows</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Ubuntu</span></li>
-						            </ul>
-						        </div>
-						    </div>
-							<div class="resume-skill-item">
-							        <h4 class="resume-skills-cat font-weight-bold">Server side</h4>
-							        <ul class="list-unstyled mb-4">
-								        <li class="mb-2">
-								            <div class="resume-skill-name">Laravel/PHP</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">MySQL</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">Redis</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        
-								        <li class="mb-2">
-								            <div class="resume-skill-name">VPS/Linux</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">REST API</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-										<li class="mb-2">
-								            <div class="resume-skill-name">Docker</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-							        </ul>
-						        </div>
-					    </section>
-					    <section class="resume-section education-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Prof. Certificate</h2>
-						    <div class="resume-section-content">
-							    <ul class="list-unstyled">
-								    <li class="mb-2">
-								        <div class="resume-degree font-weight-bold"><a href="https://www.credentials.com/credential.php?cid=108">Mobile Application Development-Android</a></div>
-								        <div class="resume-degree-org">BASIS institute technology & management(BITM)</div>
-								        <div class="resume-degree-time">Issued May 2019</div>
-								    </li>
-								    <li>
-								        <div class="resume-degree font-weight-bold"><a href="https://www.credentials.com/credential.php?cid=109">Mobile Application Development-Android</a></div>
-								        <div class="resume-degree-org">ICT Division Bangladesh</div>
-								        <div class="resume-degree-time">Issued Nov 2018</div>
-								    </li>
-							    </ul>
-						    </div>
-					    </section>
-					    <section class="resume-section reference-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Online Judge</h2>
-						    <div class="resume-section-content">
-							    <ul class="list-unstyled resume-awards-list">
-								    <li class="mb-2 pl-4 position-relative">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">221 problem solved in beecrowd</div>
-								        <div class="resume-award-desc"><a href="https://judge.beecrowd.com/en/profile/78785" target="_blank">View my beecrowd profile</a></div>
-								    </li>
-							    </ul>
-						    </div>
-					    </section>
-					    <section class="resume-section interests-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Hobbies</h2>
-						    <div class="resume-section-content">
-							    <ul class="list-unstyled">
-								    <li class="mb-1">Cycling</li>
-								    <li class="mb-1">Campaign</li>
-								    <li class="mb-1">Badminton</li>
-							    </ul>
-						    </div>
-					    </section>
-					    
-				    </div>
-			    </div>
-		    </div>
-		    
-		    
-	    </div>
+        </div>
     </article>  
 </body>
-</html> 
+</html>
